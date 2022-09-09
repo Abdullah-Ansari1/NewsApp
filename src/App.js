@@ -10,6 +10,7 @@ const App = () => {
 
   const apiKey = process.env.REACT_APP_NEWS_API
   const [progress, setProgress] = useState(0)
+  // eslint-disable-next-line 
   const [height, setHeight] = useState(2)
   
 
